@@ -13,9 +13,3 @@ resposta = chain_remote.invoke({"idioma": "inglês", "input": "meu nome é Leiri
 print(resposta)
 
 
-# para usar no postman, deve-se enviar um POST para http://localhost:8000/translate
-# com o seguinte corpo:
-# {
-#     "idioma": "inglês",
-#     "input": "meu nome é Leirisson e estou aprendendo a usar Langchain"
-# }

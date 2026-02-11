@@ -1,2 +1,4 @@
-.env
+.*
 .langchain
+*env*
+.env
